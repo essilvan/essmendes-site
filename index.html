@@ -3,139 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EssMendes Tecnologia | Sites, Automação e Presença Digital</title>
+    <title>EssMendes Tecnologia Local | Atraia Clientes na Sua Cidade</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Fundo de Efeito Gravidade Zero / Antigravity Orbs -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
 
     <!-- TOPO (HEADER) -->
     <header class="header">
         <div class="container nav-container">
             <a href="#" class="logo-link">
-                <!-- Imagem 1: Logo Oficial da marca -->
-                <img src="logo-essmendes.png" alt="EssMendes Tecnologia Logo" class="header-logo">
+                <img src="logo-essmendes.png" alt="EssMendes Tecnologia" class="header-logo">
             </a>
-            <ul class="nav-menu">
-                <li><a href="#">Início</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-            <a href="https://wa.me/5561996868634" target="_blank" class="btn btn-whatsapp">
+            
+            <nav class="nav-menu">
+                <a href="#solucoes">Soluções</a>
+                <a href="#metodo">Como Funciona</a>
+                <a href="#resultados">Resultados</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a href="https://wa.me/5561999685292?text=Ol%C3%A1!%20Gostaria%20de%20atrair%20mais%20clientes%20locais%20com%20a%20EssMendes." target="_blank" class="btn btn-whatsapp pulse">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.299.423 2.502 1.139 3.473l-.751 2.742 2.809-.737c.938.513 2.012.806 3.157.806 3.182 0 5.768-2.586 5.768-5.766.001-3.181-2.585-5.784-5.768-5.784zm0 10.372c-1.026 0-1.979-.292-2.788-.797l-.2-.125-1.666.437.444-1.624-.137-.218c-.569-.908-.871-1.966-.87-3.047.002-2.541 2.068-4.608 4.61-4.608 2.542 0 4.609 2.067 4.609 4.608 0 2.542-2.067 4.608-4.602 4.608z"/></svg>
                 Falar no WhatsApp
             </a>
         </div>
     </header>
 
-    <!-- SEÇÃO HERO -->
+    <!-- HERO ANTIGRAVITY (PRIMEIRA DOBRA) -->
     <section class="hero">
         <div class="container hero-layout">
             <div class="hero-content">
-                <span class="badge">Transformando Ideias em Soluções</span>
-                <h1 class="hero-title">Transforme sua empresa com tecnologia e inteligência digital</h1>
-                <p class="hero-subtitle">A EssMendes Tecnologia ajuda empresas a aparecerem no Google, atrair mais clientes e automatizar processos com soluções modernas.</p>
-                <div class="hero-buttons">
-                    <a href="https://wa.me/5561996868634" target="_blank" class="btn btn-primary btn-large">
-                        👉 Falar no WhatsApp
+                <div class="badge-float">
+                    <span class="badge-dot"></span>
+                    Especialistas em Presença Local & Vendas
+                </div>
+                <h1 class="hero-title">
+                    Faça sua empresa dominar as buscas locais e <span class="gradient-text">atrair novos clientes</span> todos os dias.
+                </h1>
+                <p class="hero-subtitle">
+                    A EssMendes Tecnologia Local coloca o comércio e serviços da sua cidade nas primeiras posições do Google, transformando pesquisas de vizinhos em mensagens no seu WhatsApp.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/5561999685292?text=Quero%20colocar%20minha%20empresa%20no%20topo%20do%20Google!" target="_blank" class="btn btn-primary btn-large antigravity-button">
+                        🚀 Dominar Minha Região
                     </a>
-                    <a href="#servicos" class="btn btn-secondary btn-large">
-                        Ver Serviços
+                    <a href="#solucoes" class="btn btn-glass btn-large">
+                        Conhecer Soluções
                     </a>
                 </div>
             </div>
-            <div class="hero-image">
-                <!-- Imagem 2: Equipe trabalhando com laptop (Ideal para o Hero) -->
-                <img src="hero-equipe.png" alt="Equipe EssMendes Tecnologia em Atendimento">
+
+            <!-- Card Flutuante Interativo (Mockup com imagem) -->
+            <div class="hero-media antigravity-float">
+                <div class="glass-window">
+                    <img src="hero-equipe.png" alt="Equipe EssMendes Tecnologia Local" class="media-preview" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80';">
+                    <div class="floating-badge badge-top">
+                        <span class="icon">📍</span> Top #1 no Google Maps
+                    </div>
+                    <div class="floating-badge badge-bottom">
+                        <span class="icon">📈</span> +450% Visitas Locais
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- SERVIÇOS -->
-    <section id="servicos" class="section">
+    <!-- SOLUÇÕES LOCAIS (GRID ANTIGRAVITY) -->
+    <section id="solucoes" class="section">
         <div class="container">
             <div class="section-header">
-                <h2>Nossos Serviços</h2>
-                <p>Soluções sob medida para acelerar a presença digital e o crescimento do seu negócio.</p>
+                <span class="section-tag">O QUE FAZEMOS</span>
+                <h2>Soluções para Negócios Locais</h2>
+                <p>Construímos a esteira que tira o cliente do Google e leva direto para o balcão da sua loja ou agenda.</p>
             </div>
-            <div class="grid grid-2">
-                <div class="card">
-                    <div class="card-icon">📍</div>
-                    <h3>Google Perfil da Empresa</h3>
-                    <p>Colocamos sua empresa no Google e otimizamos para atrair mais clientes da sua região.</p>
+
+            <div class="grid grid-3">
+                <div class="antigravity-card card-lift-1">
+                    <div class="card-icon-halo">📍</div>
+                    <h3>Google Perfil da Empresa (SEO Local)</h3>
+                    <p>Otimização completa para sua empresa ser a primeira recomendação no Google Maps quando alguém pesquisar pelo que você vende no seu bairro.</p>
                 </div>
-                <div class="card">
-                    <div class="card-icon">🌐</div>
-                    <h3>Criação de Sites Profissionais</h3>
-                    <p>Desenvolvemos sites rápidos, modernos e preparados para gerar clientes.</p>
+
+                <div class="antigravity-card card-lift-2">
+                    <div class="card-icon-halo">⚡</div>
+                    <h3>Landing Pages de Conversão Rápida</h3>
+                    <p>Páginas web ultrarrápidas pensadas para celular, feitas especificamente para convencer quem achou sua empresa a clicar no botão de contato.</p>
                 </div>
-                <div class="card">
-                    <div class="card-icon">🤖</div>
-                    <h3>Automação com IA</h3>
-                    <p>Automatize atendimentos e processos para ganhar tempo e aumentar seus resultados.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">⚙️</div>
-                    <h3>Sistemas Web Personalizados</h3>
-                    <p>Criamos sistemas sob medida para organizar e escalar seu negócio.</p>
+
+                <div class="antigravity-card card-lift-3">
+                    <div class="card-icon-halo">🤖</div>
+                    <h3>Automação & Atendimento Imediato</h3>
+                    <p>Respostas instantâneas e filtragem inteligente no WhatsApp para nenhum cliente esfriar ou fechar negócio com o concorrente.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SOBRE A EMPRESA -->
-    <section id="sobre" class="section">
+    <!-- COMO AJUDAMOS (MÉTODO LOCAL) -->
+    <section id="metodo" class="section section-method">
         <div class="container">
-            <div class="sobre-grid">
-                <div class="sobre-image">
-                    <!-- Imagem 3: Apresentação em tela / Consultoria -->
-                    <img src="sobre-consultoria.png" alt="Consultoria e Estratégia Digital EssMendes">
+            <div class="method-layout">
+                <div class="method-image antigravity-float-alt">
+                    <img src="sobre-consultoria.png" alt="Estratégia EssMendes Tecnologia Local" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80';">
                 </div>
-                <div class="sobre-content">
-                    <h2>Sobre a Empresa</h2>
-                    <p>A <strong>EssMendes Tecnologia</strong> nasceu com o objetivo de ajudar empresas a crescerem utilizando tecnologia de forma simples e eficiente.</p>
-                    <p>Nosso foco é transformar negócios com soluções digitais inteligentes que geram resultados mensuráveis e escaláveis.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SUPORTE & DIFERENCIAIS -->
-    <section class="section section-suporte">
-        <div class="container">
-            <div class="sobre-grid">
-                <div class="sobre-content">
-                    <h2>Suporte Contínuo e Especializado</h2>
-                    <p>Não entregamos apenas o projeto e fomos embora. Nossa equipe acompanha seu negócio para garantir que sua infraestrutura e automações continuem funcionando com máxima eficiência.</p>
-                    <ul class="diferenciais-list">
-                        <li>✔ Atendimento humano e suporte dedicado</li>
-                        <li>✔ Monitoramento de sistemas e presença digital</li>
-                        <li>✔ Foco total na experiência do seu cliente</li>
+                <div class="method-content">
+                    <span class="section-tag">METODOLOGIA COMPROVADA</span>
+                    <h2>Como a EssMendes acelera sua empresa local:</h2>
+                    <ul class="method-list">
+                        <li>
+                            <div class="step-num">01</div>
+                            <div>
+                                <strong>Diagnóstico de Visibilidade Regional</strong>
+                                <p>Identificamos o que seus concorrentes estão fazendo e por que clientes da sua cidade não estão achando você primeiro.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-num">02</div>
+                            <div>
+                                <strong>Estruturação Técnica e Posicionamento</strong>
+                                <p>Configuração de fichas, fotos profissionais, palavras-chave locais e catálogo otimizado.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step-num">03</div>
+                            <div>
+                                <strong>Fluxo Constante de Atendimento</strong>
+                                <p>Criação de rotas diretas de contato para o WhatsApp e telefone para fechar orçamentos na hora.</p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div class="sobre-image">
-                    <!-- Imagem 4: Especialista em Suporte Técnico / Headset -->
-                    <img src="suporte-atendimento.png" alt="Suporte Técnico e Atendimento Especializado">
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- CONTATO -->
+    <!-- CONTATO / CHAMADA ANTIGRAVITY -->
     <section id="contato" class="section">
         <div class="container">
-            <div class="contato-box">
-                <h2>Pronto para impulsionar seu negócio?</h2>
-                <div class="contato-info">
-                    <span>📍 Atendimento online e presencial</span>
-                    <span>📱 WhatsApp: (61) 99686-8634</span>
-                    <span>📧 <a href="mailto:contato@essmendes.com.br">contato@essmendes.com.br</a></span>
+            <div class="antigravity-box">
+                <span class="badge-float">Atendimento Imediato</span>
+                <h2>Sua empresa merece ser a número 1 da sua cidade</h2>
+                <p>Converse diretamente com a equipe da EssMendes Tecnologia Local e descubra o potencial de clientes ainda não explorado na sua região.</p>
+
+                <div class="contact-channels">
+                    <a href="https://wa.me/5561999685292?text=Ol%C3%A1!%20Quero%20uma%20avalia%C3%A7%C3%A3o%20gratuita%20da%20minha%20empresa." target="_blank" class="contact-pill">
+                        📱 (61) 99968-5292
+                    </a>
+                    <a href="mailto:essmendestecnologia@gmail.com" class="contact-pill">
+                        ✉️ essmendestecnologia@gmail.com
+                    </a>
                 </div>
-                <a href="https://wa.me/5561996868634" target="_blank" class="btn btn-whatsapp btn-large">
-                    👉 Falar no WhatsApp
+
+                <a href="https://wa.me/5561999685292?text=Ol%C3%A1!%20Quero%20fazer%20minha%20empresa%20aparecer%20no%20Google." target="_blank" class="btn btn-whatsapp btn-large antigravity-button">
+                    👉 Iniciar Atendimento no WhatsApp
                 </a>
             </div>
         </div>
@@ -144,13 +172,13 @@
     <!-- RODAPÉ -->
     <footer class="footer">
         <div class="container footer-container">
-            <div class="footer-brand">
+            <div class="footer-left">
                 <img src="logo-essmendes.png" alt="EssMendes Tecnologia" class="footer-logo">
-                <p>EssMendes Tecnologia &copy; 2026. Todos os direitos reservados.</p>
+                <p>EssMendes Tecnologia Local &copy; 2026. Todos os direitos reservados.</p>
             </div>
-            <div class="footer-links">
-                <a href="#">Política de Privacidade</a>
-                <a href="#">Termos de Uso</a>
+            <div class="footer-right">
+                <span>Soluções para Negócios Locais</span>
+                <span>Brasília - DF e Atendimento Nacional</span>
             </div>
         </div>
     </footer>
